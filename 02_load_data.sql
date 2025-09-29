@@ -41,6 +41,7 @@ ENCODING 'UTF8';
    - Encoding: UTF-8
    - Header: Yes
    - Delimiter: ,
+   - In the Columns section → uncheck/remove `sku_id` (it will auto-generate)
    Then click OK
 */
 
