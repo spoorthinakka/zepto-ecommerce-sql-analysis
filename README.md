@@ -1,10 +1,10 @@
-# zepto-ecommerce-sql-analysis
+# Zepto E-commerce SQL Analysis
 
 SQL-based analysis of Zepto's e-commerce dataset: schema design, data loading, cleaning, and deriving real-world business insights.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 E-commerce businesses generate massive amounts of product and inventory data every day.  
 Efficient analysis of this data helps companies optimize stock levels, identify revenue opportunities, and understand discounting trends.  
 
@@ -16,7 +16,7 @@ The workflow includes:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 zepto-ecommerce-sql-analysis/
 ├── 01_schema.sql              # Table design
 ├── 02_load_data.sql           # Data import steps
@@ -36,7 +36,7 @@ zepto-ecommerce-sql-analysis/
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source:** [Zepto Inventory Dataset on Kaggle](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset)  
 - **Format:** CSV  
 
@@ -49,7 +49,7 @@ You can use the dataset in two ways:
 
 ---
 
-## 🛠️ Process
+## Process
 
 ### 1. Schema Design
 - Defined a table `zepto` with key attributes:
@@ -78,7 +78,7 @@ You can use the dataset in two ways:
 
 ---
 
-## 📌 Example Queries
+## Example Queries
 
 🔹 **Top 10 products by discount percentage**
 ```sql
@@ -99,7 +99,7 @@ ORDER BY total_revenue DESC;
 
 ---
 
-📜 License
+## License
 
 SQL scripts in this repository are released under the MIT License.
 
