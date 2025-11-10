@@ -1,4 +1,4 @@
-# Zepto E-commerce SQL Analysis
+# Zepto E-Commerce Data Analysis using SQL
 
 SQL-based analysis of Zepto's e-commerce dataset: schema design, data loading, cleaning, and deriving real-world business insights.
 
