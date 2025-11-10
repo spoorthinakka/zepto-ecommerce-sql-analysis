@@ -17,6 +17,7 @@ The workflow includes:
 ---
 
 ## Project Structure
+```
 zepto-ecommerce-sql-analysis/
 ├── 01_schema.sql              # Table design
 ├── 02_load_data.sql           # Data import steps
@@ -31,7 +32,7 @@ zepto-ecommerce-sql-analysis/
 │   └── zepto_utf8.csv         # UTF-8 formatted dataset (ready to import)
 ├── LICENSE                    # Project license (MIT)
 └── README.md                  # Documentation
-
+```
 
 
 ---
